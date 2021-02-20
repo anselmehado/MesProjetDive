@@ -9,7 +9,7 @@ body {
   padding-bottom: 15%;
   width: 100%;
   /* background-size: cover; */
-  background-image: url("./images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-attachment: fixed;
 }
 
