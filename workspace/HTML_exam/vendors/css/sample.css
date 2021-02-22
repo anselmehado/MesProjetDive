@@ -8,54 +8,48 @@ body {
 .main-header {
   padding-bottom: 15px;;
   width: 90%;
-   background-size: cover;
+  background-size: cover;
   background-image: url("../images/header.jpg");
   background-attachment: fixed;
   margin-left: 20px;
   padding-right: 20px;
-  height: 400px;
+  height: 300px;
 }
 
 
 
 .header {
 width: 90%;
-height: 60px;
-  font-size: 1.5rem;
-  margin-left: 20px;
-  padding-top: 20px;
-  background-color: #333;
-  padding-right: 20px;
+height: 80px;
+font-size: 1.5rem;
+margin-left: 20px;
+
+background-color: #333;
+padding-right: 20px;
 }
 
-/* ul.top_menu {
-  float: right;
+li {
+  /* Supprimer le cercle noir en haut de la liste */
+  list-style: none;
 }
 
-.top_menu li {
- float: left;
- width: auto;
-}
-
-.top_menu li a {
-  color: #fff;
-  padding: 15px;
-  display: block;
-  text-decoration: none;
-}
-
-.top_menu li a:hover {
-  text-decoration: none;
-}
-
-/*  positionnement du logo */
-
-
-header {
-}
+/* permet de disposer les ul en horizontale */
 header ul {
   display: flex;
-  padding: 15px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center
+  padding: 10px
+}
+/* li.top_menu::before{
+  content:"right";
+  float left;
+} */
+
+li.top_menu::{
+  content:"left";
+  float right;
 }
 header ul a {
   text-decoration: none;
@@ -63,37 +57,46 @@ header ul a {
 header li {
 }
 header ul:after {
-  right:
+
+
 }
 
+.function p{
+  color: #000;
+}
 
 /* Implémentation de la partie d'en-tête */
 .main-header img {
-  background-size: cover;
-  height: 300px;
-  width: 90%;
+  ;
+  background-image: url("../images/achieve.jpg");
+  height: 100px;
+  width: 200px;
+  background-attachment: fixed;
+  position: absolute;
+  left: 400px;
+  top: 250px;
+
 
 /* Implémentation de l'image principale (image des caractères blancs "Achieve") */
 }
 .about {
   margin-left: 20px;
   width: 90%;
-  height: 250px;
-  padding-right: 20px;
-  margin-bottom: 20px;
+
 /* About Implémentation de la partie Achieve */
 }
 
 .about p{
   text-align: center;
+  color: #000;
 }
 /* ​ */
 .function {
-  padding-top: 100px;
+margin-top: 40px;
 margin-left: 20px;
 padding-right: 20px;
   width: 90%;
-  height: 250px;
+  height: 500px;
   background-color: #f7f1e3;
 
 }
@@ -105,17 +108,18 @@ h1{
 .function-images {
 
   display: flex;
+  content: center;
   align-items: center;
-  justify-content: center;
-  width: 90%;
-  height: 250px;
-  background-color: #f7f1e3;
+  /* justify-content: center; */
+
   align-content: space-between;
+  justify-content: space-around;
 
 
 }
 p{
   text-align: justify;
+  color: #fff;
 }
 .function-image {
 }
@@ -127,13 +131,15 @@ footer {
   padding-right: 20px;
   background-color: #353b48;
   width: 90%;
-  height: 100px;
+  height: 150px;
 /* Implémentation du pied de page */
 }
 
 footer p{
   text-align: center;
-  bottom: 0
+  bottom: 0;
+  color :#fff;
+  padding-bottom: 20px;
 
 
 }
